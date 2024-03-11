@@ -5,7 +5,7 @@ import { useState, Fragment } from "react";
 import Links from "./links";
 
 const PopoutMenu = () => {
-  let [isOpen, setIsOpen] = useState(true);
+  let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
     setIsOpen(false);

@@ -5,7 +5,7 @@ import ListItems from "./components/listItems";
 
 export default function Home() {
   return (
-    <main className="backBackground bg-white h-screen">
+    <main className="backBackground bg-white h-full">
       <div className="whiteBackground h-full bg-white flex flex-col gap-8 md:flex md:flex-row-reverse md:justify-center md:items-center  md:absolute md:left-1/2 md:transform md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 md:gap-8 md:w-[750px] md:h-[500px] md:p-4 md:pl-10 md:rounded-3xl md:shadow-lg md:shadow-black sha">
         <div className="orangeSection">
           <img
